@@ -1,0 +1,38 @@
+
+
+
+table,th,td {
+
+	 border: 1px solid black;
+	 padding:5px;
+
+}
+
+tbody td:first-child {
+	font-style:italic;
+}
+
+tbody td:nth-child(2){
+	color:red;
+}
+
+tbody td:nth-child(4){
+	color:blue;
+}
+
+tbody tr:nth-child(odd){
+	background-color: #66FF66;
+}
+tbody tr:nth-child(even){
+	background-color: #3399FF;
+}
+
+dt:hover{
+	color:purple;
+}
+
+form {
+	border:1px solid black;
+	width:900px;
+}
+
