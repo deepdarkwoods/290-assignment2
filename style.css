@@ -1,11 +1,8 @@
 
 
-
 table,th,td {
-
 	 border: 1px solid black;
 	 padding:5px;
-
 }
 
 tbody td:first-child {
@@ -23,16 +20,46 @@ tbody td:nth-child(4){
 tbody tr:nth-child(odd){
 	background-color: #66FF66;
 }
+
 tbody tr:nth-child(even){
 	background-color: #3399FF;
 }
 
-dt:hover{
-	color:purple;
+dt:hover~dd {
+	background-color:purple;
 }
 
 form {
 	border:1px solid black;
 	width:900px;
+	padding:5px;
+}
+
+.outer-content {
+	border:1px solid black;
+	background-color: pink;
+	height: 50px;
+	width:75%;
+	margin-top:20px;
+}
+
+.inner-content{
+	border:1px solid black;
+	background-color:#3399FF;
+	top:25%;
+	width:75%;
+	height:40%;
+	margin:auto;
+	vertical-align:middle;
+	position:relative;
+	text-align: center;
+
+}
+
+img {
+	height: 100px;
+	width:125px;	
+	background-color: #3399FF;
+	float:left;
 }
 
